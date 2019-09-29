@@ -1,0 +1,10 @@
+on: [push]
+
+jobs:
+  dialyxir:
+    runs-on: ubuntu-latest
+    name: Test dialyxir action
+    steps:
+    - name: Use dialyxir action
+      id: dialyxir
+      uses: filalex77/dialyxir-action@v1
